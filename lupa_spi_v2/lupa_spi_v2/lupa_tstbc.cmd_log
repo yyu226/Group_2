@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/yingyu/Desktop/LUPA_ISE/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.xst" -ofn "C:/Users/yingyu/Desktop/LUPA_ISE/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.syr" 

@@ -1,0 +1,585 @@
+Release 13.3 - xst O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
+ 
+--> Reading design: spi_upload.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "spi_upload.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "spi_upload"
+Output Format                      : NGC
+Target Device                      : xc6slx25-3-ftg256
+
+---- Source Options
+Top Module Name                    : spi_upload
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" into library work
+Parsing module <spi_upload>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <spi_upload>.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 67: Signal <addr> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 69: Signal <addr> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 70: Signal <addr> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 71: Signal <addr> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 73: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 74: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 75: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 76: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 77: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 78: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 79: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 80: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 81: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 82: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 83: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 85: Signal <dat> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 86: Signal <nrc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 86: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:462 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 95: if-condition does not match any sensitivity list edge
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 99: Signal <state> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 104: Signal <nrc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 109: Signal <nrc> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 129: Signal <next> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi\lupa_spi\spi_upload.v" Line 129: Result of 7-bit expression is truncated to fit in 6-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <spi_upload>.
+    Related source file is "c:/users/yingyu/desktop/lupa_ise/lupa_spi/lupa_spi/spi_upload.v".
+    Found 6-bit register for signal <state>.
+    Found 4-bit adder for signal <state[5]_nrc[3]_select_26_OUT> created at line 86.
+    Found 6-bit adder for signal <next[5]_GND_1_o_add_39_OUT> created at line 129.
+    Found 6-bit 4-to-1 multiplexer for signal <_n0106> created at line 99.
+WARNING:Xst:737 - Found 1-bit latch for signal <spi_en>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <spi_dat>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <nrc<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <nrc<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <nrc<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <nrc<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <addr<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<11>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<10>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<9>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<8>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <dat<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Found 4-bit comparator equal for signal <nrc[3]_nrg[3]_equal_34_o> created at line 104
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+	inferred   6 D-type flip-flop(s).
+	inferred  22 Latch(s).
+	inferred   1 Comparator(s).
+	inferred   4 Multiplexer(s).
+Unit <spi_upload> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 1
+ 6-bit register                                        : 1
+# Latches                                              : 22
+ 1-bit latch                                           : 22
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 4
+ 1-bit 2-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 2
+ 4-bit adder                                           : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+# Comparators                                          : 1
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 4
+ 1-bit 2-to-1 multiplexer                              : 1
+ 6-bit 2-to-1 multiplexer                              : 2
+ 6-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: next[5]_GND_1_o_add_39_OUT<1>, Madd_next[5]_GND_1_o_add_39_OUT_lut<1>.
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: Madd_next[5]_GND_1_o_add_39_OUT_lut<2>, next[5]_GND_1_o_add_39_OUT<2>.
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: Madd_next[5]_GND_1_o_add_39_OUT_lut<3>, next[5]_GND_1_o_add_39_OUT<3>.
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: next[5]_GND_1_o_add_39_OUT<4>, Madd_next[5]_GND_1_o_add_39_OUT_lut<4>.
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: Madd_next[5]_GND_1_o_add_39_OUT_lut<5>, next[5]_GND_1_o_add_39_OUT<5>.
+WARNING:Xst:2170 - Unit spi_upload : the following signal(s) form a combinatorial loop: Madd_next[5]_GND_1_o_add_39_OUT_cy<0>.
+WARNING:Xst:2016 - Found a loop when searching source clock on port '_n0109<5>:_n0109<5>'
+Last warning will be issued only once.
+
+Optimizing unit <spi_upload> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block spi_upload, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : spi_upload.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 43
+#      INV                         : 1
+#      LUT2                        : 1
+#      LUT3                        : 3
+#      LUT4                        : 19
+#      LUT5                        : 3
+#      LUT6                        : 16
+# FlipFlops/Latches                : 28
+#      FD_1                        : 6
+#      LD                          : 6
+#      LDE                         : 16
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 9
+#      IBUF                        : 6
+#      OBUF                        : 3
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx25ftg256-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              26  out of  30064     0%  
+ Number of Slice LUTs:                   43  out of  15032     0%  
+    Number used as Logic:                43  out of  15032     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     43
+   Number with an unused Flip Flop:      17  out of     43    39%  
+   Number with an unused LUT:             0  out of     43     0%  
+   Number of fully used LUT-FF pairs:    26  out of     43    60%  
+   Number of unique control sets:         5
+
+IO Utilization: 
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    186     4%  
+    IOB Flip Flops/Latches:               2
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                2  out of     16    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+---------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                         | Clock buffer(FF name)  | Load  |
+---------------------------------------------------------------------+------------------------+-------+
+state[5]_spi_dat_Select_25_o<1>2(state[5]_spi_dat_Select_25_o<1>21:O)| NONE(*)(nrc_3)         | 4     |
+_n0111(_n01111:O)                                                    | NONE(*)(spi_dat)       | 1     |
+_n0110(_n01101:O)                                                    | NONE(*)(spi_en)        | 1     |
+start                                                                | IBUF+BUFG              | 16    |
+clock_20                                                             | IBUF+BUFG              | 6     |
+---------------------------------------------------------------------+------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 9.300ns (Maximum Frequency: 107.532MHz)
+   Minimum input arrival time before clock: 10.704ns
+   Maximum output required time after clock: 3.648ns
+   Maximum combinational path delay: 4.372ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'state[5]_spi_dat_Select_25_o<1>2'
+  Clock period: 2.433ns (frequency: 411.100MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               2.433ns (Levels of Logic = 1)
+  Source:            nrc_0 (LATCH)
+  Destination:       nrc_0 (LATCH)
+  Source Clock:      state[5]_spi_dat_Select_25_o<1>2 falling
+  Destination Clock: state[5]_spi_dat_Select_25_o<1>2 falling
+
+  Data Path: nrc_0 to nrc_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q              21   0.498   1.113  nrc_0 (nrc_0)
+     INV:I->O              1   0.206   0.579  Madd_state[5]_nrc[3]_select_26_OUT_xor<0>11_INV_0 (state[5]_nrc[3]_select_26_OUT<0>)
+     LD:D                      0.037          nrc_0
+    ----------------------------------------
+    Total                      2.433ns (0.741ns logic, 1.692ns route)
+                                       (30.5% logic, 69.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clock_20'
+  Clock period: 9.300ns (frequency: 107.532MHz)
+  Total number of paths / destination ports: 390 / 6
+-------------------------------------------------------------------------
+Delay:               9.300ns (Levels of Logic = 9)
+  Source:            state_1 (FF)
+  Destination:       state_5 (FF)
+  Source Clock:      clock_20 falling
+  Destination Clock: clock_20 falling
+
+  Data Path: state_1 to state_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD_1:C->Q             7   0.447   1.021  state_1 (state_1)
+     LUT4:I0->O            5   0.203   1.059  _n0107<5>1 (_n0107)
+     LUT6:I1->O            7   0.203   0.878  Mmux_next11 (Madd_next[5]_GND_1_o_add_39_OUT_cy<0>)
+     LUT6:I4->O            6   0.203   0.745  Mmux_next21 (Madd_next[5]_GND_1_o_add_39_OUT_lut<1>)
+     LUT5:I4->O            5   0.205   0.715  Mmux_next31 (Madd_next[5]_GND_1_o_add_39_OUT_lut<2>)
+     LUT6:I5->O            4   0.205   0.684  Mmux_next41 (Madd_next[5]_GND_1_o_add_39_OUT_lut<3>)
+     LUT6:I5->O            1   0.205   0.580  Mmux_next51 (Mmux_next5)
+     LUT6:I5->O            3   0.205   0.651  Mmux_next52 (Madd_next[5]_GND_1_o_add_39_OUT_lut<4>)
+     LUT3:I2->O            1   0.205   0.580  Mmux_next6_SW0 (N6)
+     LUT6:I5->O            2   0.205   0.000  Mmux_next6 (Madd_next[5]_GND_1_o_add_39_OUT_lut<5>)
+     FD_1:D                    0.102          state_5
+    ----------------------------------------
+    Total                      9.300ns (2.388ns logic, 6.912ns route)
+                                       (25.7% logic, 74.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'start'
+  Total number of paths / destination ports: 64 / 16
+-------------------------------------------------------------------------
+Offset:              5.806ns (Levels of Logic = 4)
+  Source:            nrg<1> (PAD)
+  Destination:       addr_3 (LATCH)
+  Destination Clock: start falling
+
+  Data Path: nrg<1> to addr_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.827  nrg_1_IBUF (nrg_1_IBUF)
+     LUT4:I0->O            1   0.203   0.924  nrc[3]_nrg[3]_equal_34_o4_SW0 (N4)
+     LUT5:I0->O            3   0.203   0.898  nrc[3]_nrg[3]_equal_34_o4 (nrc[3]_nrg[3]_equal_34_o)
+     LUT4:I0->O           16   0.203   1.004  Mmux__n011211 (_n0112)
+     LDE:GE                    0.322          addr_3
+    ----------------------------------------
+    Total                      5.806ns (2.153ns logic, 3.653ns route)
+                                       (37.1% logic, 62.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clock_20'
+  Total number of paths / destination ports: 199 / 6
+-------------------------------------------------------------------------
+Offset:              10.704ns (Levels of Logic = 11)
+  Source:            nrg<1> (PAD)
+  Destination:       state_5 (FF)
+  Destination Clock: clock_20 falling
+
+  Data Path: nrg<1> to state_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.827  nrg_1_IBUF (nrg_1_IBUF)
+     LUT4:I0->O            1   0.203   0.924  nrc[3]_nrg[3]_equal_34_o4_SW0 (N4)
+     LUT5:I0->O            3   0.203   0.755  nrc[3]_nrg[3]_equal_34_o4 (nrc[3]_nrg[3]_equal_34_o)
+     LUT6:I4->O            7   0.203   0.878  Mmux_next11 (Madd_next[5]_GND_1_o_add_39_OUT_cy<0>)
+     LUT6:I4->O            6   0.203   0.745  Mmux_next21 (Madd_next[5]_GND_1_o_add_39_OUT_lut<1>)
+     LUT5:I4->O            5   0.205   0.715  Mmux_next31 (Madd_next[5]_GND_1_o_add_39_OUT_lut<2>)
+     LUT6:I5->O            4   0.205   0.684  Mmux_next41 (Madd_next[5]_GND_1_o_add_39_OUT_lut<3>)
+     LUT6:I5->O            1   0.205   0.580  Mmux_next51 (Mmux_next5)
+     LUT6:I5->O            3   0.205   0.651  Mmux_next52 (Madd_next[5]_GND_1_o_add_39_OUT_lut<4>)
+     LUT3:I2->O            1   0.205   0.580  Mmux_next6_SW0 (N6)
+     LUT6:I5->O            2   0.205   0.000  Mmux_next6 (Madd_next[5]_GND_1_o_add_39_OUT_lut<5>)
+     FD_1:D                    0.102          state_5
+    ----------------------------------------
+    Total                     10.704ns (3.366ns logic, 7.338ns route)
+                                       (31.4% logic, 68.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock '_n0110'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            spi_en (LATCH)
+  Destination:       spi_en (PAD)
+  Source Clock:      _n0110 falling
+
+  Data Path: spi_en to spi_en
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.579  spi_en (spi_en_OBUF)
+     OBUF:I->O                 2.571          spi_en_OBUF (spi_en)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock '_n0111'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            spi_dat (LATCH)
+  Destination:       spi_dat (PAD)
+  Source Clock:      _n0111 falling
+
+  Data Path: spi_dat to spi_dat
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.579  spi_dat (spi_dat_OBUF)
+     OBUF:I->O                 2.571          spi_dat_OBUF (spi_dat)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               4.372ns (Levels of Logic = 2)
+  Source:            clock_20 (PAD)
+  Destination:       spi_clk (PAD)
+
+  Data Path: clock_20 to spi_clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  clock_20_IBUF (spi_clk_OBUF)
+     OBUF:I->O                 2.571          spi_clk_OBUF (spi_clk)
+    ----------------------------------------
+    Total                      4.372ns (3.793ns logic, 0.579ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock _n0110
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock_20       |         |         |    1.888|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock _n0111
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clock_20       |         |         |    3.723|         |
+start          |         |         |    3.380|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock clock_20
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+clock_20                        |         |         |    9.300|         |
+state[5]_spi_dat_Select_25_o<1>2|         |         |   10.455|         |
+--------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock start
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+clock_20                        |         |         |    4.018|         |
+state[5]_spi_dat_Select_25_o<1>2|         |         |    5.557|         |
+--------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock state[5]_spi_dat_Select_25_o<1>2
+--------------------------------+---------+---------+---------+---------+
+                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                    |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+--------------------------------+---------+---------+---------+---------+
+state[5]_spi_dat_Select_25_o<1>2|         |         |    2.433|         |
+--------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 8.16 secs
+ 
+--> 
+
+Total memory usage is 254092 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   52 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

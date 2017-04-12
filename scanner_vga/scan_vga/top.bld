@@ -1,0 +1,53 @@
+Release 13.3 ngdbuild O.76xd (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx\13.3\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe
+-intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc top.ucf -p
+xc6slx9-ftg256-3 top.ngc top.ngd
+
+Reading NGO file "C:/Users/yingyu/Desktop/LUPA_ISE/scanner_vga/scan_vga/top.ngc"
+...
+Loading design module "ipcore_dir/fifo_vga.ngc"...
+Loading design module "ipcore_dir/fifo_8to1.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "top.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_sys_clk_pin = PERIOD
+   "sys_clk_pin" 50000 KHz;> [top.ucf(133)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'sys_clk_pin'.
+
+WARNING:ConstraintSystem:56 - Constraint <TIMESPEC TS_sys_clk_pin = PERIOD
+   "sys_clk_pin" 50000 KHz;> [top.ucf(134)]: Unable to find an active 'TNM' or
+   'TimeGrp' constraint named 'sys_clk_pin'.
+
+WARNING:NgdBuild:1345 - The constraint <TIMESPEC TS_sys_clk_pin = PERIOD
+   "sys_clk_pin" 50000 KHz;> [top.ucf(133)] is overridden by the constraint
+   <TIMESPEC TS_sys_clk_pin = PERIOD "sys_clk_pin" 50000 KHz;> [top.ucf(134)].
+   The overriden constraint usually comes from the input netlist or ncf files.
+   Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an
+   error.
+Done...
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 174956 kilobytes
+
+Writing NGD file "top.ngd" ...
+Total REAL time to NGDBUILD completion:  7 sec
+Total CPU time to NGDBUILD completion:   7 sec
+
+Writing NGDBUILD log file "top.bld"...

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lupa_spi.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="compxlib.log"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="spi_upload.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="spi_upload.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="spi_upload.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="spi_upload.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="spi_upload.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="spi_upload.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="spi_upload.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="spi_upload.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spi_upload_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="spi_upload_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="spi_upload_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1453156391" xil_pn:name="TRANEXT_compLibraries_FPGA" xil_pn:prop_ck="-2239541494069893862" xil_pn:start_ts="1453156385">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="compxlib.log"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891979" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1452891979">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470080047" xil_pn:in_ck="-6993692674826209815" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1470080047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="lupa_tstbc.v"/>
+      <outfile xil_pn:name="spi_upload.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1453156352" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8531684316277161096" xil_pn:start_ts="1453156352">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1453156352" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1821255742484309062" xil_pn:start_ts="1453156352">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891979" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-3201004767657694980" xil_pn:start_ts="1452891979">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1470080047" xil_pn:in_ck="-6993692674826209815" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1470080047">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="lupa_tstbc.v"/>
+      <outfile xil_pn:name="spi_upload.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1470080049" xil_pn:in_ck="-6993692674826209815" xil_pn:name="TRAN_MSimulateBehavioralModel" xil_pn:prop_ck="-839041631735045151" xil_pn:start_ts="1470080047">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-4262745653212115579" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-3201004767657694980" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-4727448730752714745" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-1970394750299821092" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1452891829" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-8412045925594435450" xil_pn:start_ts="1452891829">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1464901387" xil_pn:in_ck="5988891045473237140" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-3818157681509538741" xil_pn:start_ts="1464901375">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="spi_upload.lso"/>
+      <outfile xil_pn:name="spi_upload.ngc"/>
+      <outfile xil_pn:name="spi_upload.ngr"/>
+      <outfile xil_pn:name="spi_upload.prj"/>
+      <outfile xil_pn:name="spi_upload.stx"/>
+      <outfile xil_pn:name="spi_upload.syr"/>
+      <outfile xil_pn:name="spi_upload.xst"/>
+      <outfile xil_pn:name="spi_upload_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

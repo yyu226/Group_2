@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="872" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_tstbc.v" Line 48: Using initial value of <arg fmt="%s" index="1">start</arg> since it is never assigned
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 75: Signal &lt;<arg fmt="%s" index="1">addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 79: Signal &lt;<arg fmt="%s" index="1">addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 84: Signal &lt;<arg fmt="%s" index="1">addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 89: Signal &lt;<arg fmt="%s" index="1">addr</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 95: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 100: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 105: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 110: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 115: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 120: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 125: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 130: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 135: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 140: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 145: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 150: Signal &lt;<arg fmt="%s" index="1">dat</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 157: Signal &lt;<arg fmt="%s" index="1">nrc</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 157: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_spi_v2.v" Line 207: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_tstbc.v" Line 42: Assignment to <arg fmt="%s" index="1">spi_clk</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_tstbc.v" Line 43: Assignment to <arg fmt="%s" index="1">spi_en</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_tstbc.v" Line 44: Assignment to <arg fmt="%s" index="1">spi_dat</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"C:\Users\yingyu\Desktop\LUPA_ISE\lupa_spi_v2\lupa_spi_v2\lupa_tstbc.v" Line 45: Assignment to <arg fmt="%s" index="1">cfg_DONE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/yingyu/desktop/lupa_ise/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.v</arg>&quot; line <arg fmt="%d" index="2">38</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">uut</arg>&gt; of block &lt;<arg fmt="%s" index="4">lupa_spi_v2</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">lupa_tstbc</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/yingyu/desktop/lupa_ise/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">spi_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/yingyu/desktop/lupa_ise/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">spi_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/yingyu/desktop/lupa_ise/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">spi_dat</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">c:/users/yingyu/desktop/lupa_ise/lupa_spi_v2/lupa_spi_v2/lupa_tstbc.v</arg>&quot; line <arg fmt="%s" index="2">38</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_DONE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">uut</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+</messages>
+
